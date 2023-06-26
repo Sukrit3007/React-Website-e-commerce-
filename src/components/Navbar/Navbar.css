@@ -1,0 +1,40 @@
+.navbar{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    
+}
+.logo {
+    float:left;
+    margin-top: 50px;
+    margin-left: 96px;
+}
+.left-nav{
+    display: flex;
+    flex-direction: row;
+    float: left;
+    margin-top: 48px;
+    margin-left: 96px;
+    transition: all 0.2s ease-in-out;
+}
+.left-nav a{
+
+    text-decoration: none;
+    color: #1E1E1E;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+
+    margin-right: 48px;
+}
+
+.right-nav{
+    display: flex;
+    float: right;
+    margin-top: 48px;
+    margin-right: 216px;
+}
+.right-nav a {
+    color: #1E1E1E;
+    margin-left: 48px;
+}

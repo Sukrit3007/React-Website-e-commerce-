@@ -1,0 +1,32 @@
+.categories-main{
+    display: flex;
+    flex-direction: column;
+    gap: 96px;
+}
+.categories-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+.categories-top h1{
+    color: #1E1E1E;
+    font-size: 32px;
+    font-family: Poppins;
+    font-weight: 700;
+}
+.categories-top p{
+    color: rgba(30, 30, 30, 0.50);
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: 500;
+}
+
+.categories-bottom{
+    width: 100%x;
+    height: 841px;
+    background: rgba(38, 108, 4, 0.51);
+
+    display: flex;
+    flex-direction: column;
+}

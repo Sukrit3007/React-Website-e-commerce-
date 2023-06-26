@@ -1,0 +1,156 @@
+.footer{
+    background-color: #266C0482;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+
+}
+.left-footer{
+
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.left-top{
+    height: 50%;
+}
+.left-top-text{
+    padding-left: 97.5px;
+    padding-top: 48px;
+    padding-bottom: 24px;
+}
+.left-top img{
+    margin-bottom: 24px;
+}
+.left-top h3{
+    
+    width: 189px;
+    height: 54px;
+    text-align:start;
+
+    color: var(--color-4, rgba(30, 30, 30, 0.50));
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: 500;
+}
+.left-top-icons{
+    padding-left: 96px;
+}
+.social-icons{
+    width: 192px;
+    height: 48px;
+    
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+.Facebooklogo{
+    margin-left: 96px;
+}
+.left-bottom{
+
+    height: 50%;
+    display: flex;
+
+}
+.left-bottom h3{
+    margin-left: 97px;
+    margin-top: 98px;
+    margin-bottom: 48px;
+    width: 434px;
+    height: 27px;
+
+    color: var(--color-4, rgba(30, 30, 30, 0.50));
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: 500;
+}
+
+
+.right-footer{
+
+    width: 50%;
+    padding-top: 48px;
+    padding-right: 96px;
+    float: left;
+}
+.right-footer-main{
+
+    width: 452px;
+    height: 180px;
+    float: right;
+  
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+}
+
+.information{
+
+    width: 111px;
+    height: 180px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    text-align: left;
+}
+.information h2{
+
+    color: var(--color-2, #1E1E1E);
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: 700;
+}
+.information h3{
+    
+    color: var(--color-4, rgba(30, 30, 30, 0.50));
+    font-size: 18px;
+    font-family: Poppins;
+}
+.company{
+
+    width: 107px;
+    height: 180px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    text-align: left;
+}
+.company h2{
+    color: var(--color-2, #1E1E1E);
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: 700;
+}
+.company h3{
+    color: var(--color-4, rgba(30, 30, 30, 0.50));
+    font-size: 18px;
+    font-family: Poppins;
+}
+.contact{
+
+    width: 145px;
+    height: 180px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    text-align: left;
+}
+.contact h2{
+    color: var(--color-2, #1E1E1E);
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: 700;
+}
+.contact h3{
+    color: var(--color-4, rgba(30, 30, 30, 0.50));
+    font-size: 18px;
+    font-family: Poppins;
+}

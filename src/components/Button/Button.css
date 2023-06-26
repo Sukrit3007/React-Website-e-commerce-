@@ -1,0 +1,28 @@
+.button{
+    border: 2px solid black;
+    padding: 12px 24px;
+    /* background: rgba(38, 108, 4, 0.51); */
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    width: 180px;
+    height: 51px;
+    gap: 10px;
+}
+.button-text{
+
+    color: #1E1E1E;
+    text-align: center;
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: 500;
+}
+.arrow{
+}
+.button:hover{
+    background: rgba(39, 92, 11, 0.51);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+    background-color: ;
+}

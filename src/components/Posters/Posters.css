@@ -1,0 +1,34 @@
+.plant-poster{
+    border: 2px solid red;
+    width: 352px;
+    height: 617px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.plant-poster-img{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+}
+.plant-poster-img img{
+
+}
+.plant-poster-img h1{
+    color: #1E1E1E;
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: 700;
+}
+
+.plant-poster p{
+
+    color: rgba(30, 30, 30, 0.50);
+    text-align: center;
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: 500;
+}
