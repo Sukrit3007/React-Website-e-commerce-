@@ -1,5 +1,4 @@
 .plant-poster{
-    border: 2px solid red;
     width: 352px;
     height: 617px;
 
@@ -14,10 +13,12 @@
     gap: 12px;
     align-items: center;
 }
-.plant-poster-img img{
 
+.plant-img :hover{
+    cursor: pointer;
 }
-.plant-poster-img h1{
+
+.plant-poster-img-heading{
     color: #1E1E1E;
     font-size: 18px;
     font-family: Poppins;

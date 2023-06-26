@@ -30,3 +30,26 @@
     display: flex;
     flex-direction: column;
 }
+.p1 {
+    position: absolute;
+    top: 1910px;
+    left: 95px;
+    right: 992px;
+}
+
+.p2{
+    position: absolute;
+    top: 2024px;
+    right: 654px;
+    left: 654px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+}
+.p3{
+    top: 1910px;
+    position: absolute;
+    right: 96px;
+
+}

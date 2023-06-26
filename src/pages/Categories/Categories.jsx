@@ -17,12 +17,20 @@ function Categories() {
         </div>
         <div className="categories-bottom">
             <div className="categories-bottom-top">
-                <Posters  img ={poster1} name ='Natural Plants' description ="Nature's beauty, living artistry, tranquil serenity." />
-                
+                <div className="p1">
+                    <Posters img ={poster1} name ='Natural Plants' description ="Nature's beauty, living artistry, tranquil serenity." />
+                </div>
+                <div className="p2">
+                    <Posters className='p2' img={poster2} name ="Plant Accessories" description =" Elevate your greenery with stylish accessories." />
+                    <Button title = 'Explore' bg = '#FFFFFF' />
+                </div>
+                <div className="p3">
+                    <Posters className='p3' img={poster3} name ="Artificial Plants" description ="Timeless greenery, no upkeep required." />
+                </div>   
             </div>
-            <div className="categories-bottom-bottom">
+            {/* <div className="categories-bottom-bottom">
                 <Button title = 'Explore' bg = '#FFFFFF' />
-            </div>
+            </div> */}
         </div>
     </div>
   )

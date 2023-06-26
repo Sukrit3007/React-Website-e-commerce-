@@ -3,10 +3,10 @@ import './App.css';
 import { BrowserRouter as Router,Routes,Route } from 'react-router-dom';
 import {Navbar} from './components/Navbar/Navbar';
 import { Home } from './pages/Home/Home';
-import { Products } from './pages/Products';
-import { Contacts } from './pages/Contacts';
-import {Cart} from "./pages/Cart";
-import {SignIn} from "./pages/SignIn";
+import { Products } from './pages/Products/Products';
+import { Contacts } from './pages/Contacts/Contacts';
+import {Cart} from "./pages/Cart/Cart";
+import {SignIn} from "./pages/SignIn/SignIn";
 import Footer from './pages/Footer/Footer';
 import { Button } from './components/Button/ Button';
 
