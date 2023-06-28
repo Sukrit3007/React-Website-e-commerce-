@@ -10,7 +10,6 @@ import {SignIn} from "./pages/SignIn/SignIn";
 import Footer from './pages/Footer/Footer';
 import { Button } from './components/Button/ Button';
 
-
 function App() {
   return (
     <div className="App">

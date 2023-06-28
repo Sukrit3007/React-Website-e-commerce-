@@ -28,9 +28,6 @@ function Categories() {
                     <Posters className='p3' img={poster3} name ="Artificial Plants" description ="Timeless greenery, no upkeep required." />
                 </div>   
             </div>
-            {/* <div className="categories-bottom-bottom">
-                <Button title = 'Explore' bg = '#FFFFFF' />
-            </div> */}
         </div>
     </div>
   )
